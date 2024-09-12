@@ -1,3 +1,7 @@
+### Jira
+
+Are You Male on Hijab (Cross Hijabers) or Female ?
+
 ### ❔ Question
 * How to Notice Cross Hijabers ?
 * Model Metrics ?
