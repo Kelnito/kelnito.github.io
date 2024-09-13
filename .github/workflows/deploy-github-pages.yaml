@@ -4,7 +4,8 @@ on:
     branches:
       - main
     paths:
-      - 'fulldocs/**'
+      # - 'fulldocs/**'
+      - '.'
   workflow_dispatch:
 permissions:
   contents: write
@@ -25,7 +26,7 @@ jobs:
           python-version: 3.9
       - run: pip install \
             mkdocs-material
-      - run: mkdocs gh-deploy --config-file fulldocs/mkdocs.yaml --force
+      - run: mkdocs gh-deploy --config-file mkdocs.yaml --force
 
   deploy_mkdocs:
     needs: build_mkdocs
